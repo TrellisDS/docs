@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B2B Garden Supply: The Omnichannel Impact Report</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 320px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 400px;
+            }
+        }
+        .section-title {
+            font-size: 2.25rem;
+            font-weight: 900;
+            line-height: 2.5rem;
+            text-align: center;
+        }
+        .section-subtitle {
+            font-size: 1.125rem;
+            line-height: 1.75rem;
+            text-align: center;
+            max-width: 48rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .kpi-value {
+            font-size: 4rem;
+            font-weight: 900;
+        }
+        .kpi-label {
+            font-size: 1.125rem;
+            font-weight: 600;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body class="bg-[#003f5c] text-white">
+
+    <header class="text-center py-16 px-4">
+        <h1 class="text-4xl md:text-6xl font-black text-[#ffa600] uppercase tracking-wider">The Omnichannel Revolution</h1>
+        <p class="mt-4 text-xl md:text-2xl font-semibold text-white/90">An Industry Impact Report for B2B Garden & Landscape Supply</p>
+    </header>
+
+    <main class="container mx-auto px-4 sm:px-6 lg:px-8 space-y-24 pb-24">
+
+        <section id="intro" class="text-center">
+            <h2 class="section-title text-white">The Digital Shift is Here</h2>
+            <p class="section-subtitle mt-4 text-white/80">
+                The B2B garden and landscape supply industry stands at a pivotal moment. Traditional business models, heavily reliant on physical cash-and-carry operations, are facing unprecedented challenges from weather volatility and operational inefficiencies. This report reveals how the strategic adoption of an omnichannel e-commerce platform is not just an upgrade—it's the essential evolution for survival and growth.
+            </p>
+            <div class="mt-12 bg-white/10 rounded-2xl p-8 max-w-4xl mx-auto backdrop-blur-sm">
+                <p class="kpi-value text-[#ffa600]">+250%</p>
+                <p class="kpi-label text-white/90">Projected Growth in B2B Garden Supply E-Commerce by 2028</p>
+            </div>
+        </section>
+
+        <section id="challenge">
+            <h2 class="section-title">The High Cost of Inefficiency</h2>
+            <p class="section-subtitle mt-4 text-white/80">Before embracing digital transformation, the industry standard was a model fraught with hidden costs. Weather-related disruptions and manual procurement processes directly impacted project timelines and profitability.</p>
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-[#2f4b7c] p-8 rounded-2xl text-center shadow-lg">
+                    <span class="text-6xl">🌧️</span>
+                    <p class="text-5xl font-black text-red-400 mt-4">18%</p>
+                    <p class="mt-2 text-lg font-semibold">Average Revenue Lost Annually to Weather-Related Project Delays</p>
+                    <p class="mt-2 text-white/70 text-sm">Based on analysis of traditional cash-and-carry models without 24/7 online ordering capabilities.</p>
+                </div>
+                <div class="bg-[#2f4b7c] p-8 rounded-2xl text-center shadow-lg">
+                     <span class="text-6xl">📋</span>
+                    <p class="text-5xl font-black text-red-400 mt-4">8 Hrs</p>
+                    <p class="mt-2 text-lg font-semibold">Average Weekly Hours Spent on Manual Procurement & Quoting</p>
+                     <p class="mt-2 text-white/70 text-sm">Includes phone calls, travel time, and paperwork for sourcing project materials.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="market-overview">
+            <h2 class="section-title">Market Trajectory: The Rise of Omnichannel</h2>
+             <p class="section-subtitle mt-4 text-white/80">The adoption of integrated e-commerce solutions is no longer a niche trend but the primary driver of market growth. Businesses that merge their physical and digital operations are capturing a decisive competitive advantage.</p>
+            <div class="mt-12 bg-[#2f4b7c] p-6 rounded-2xl shadow-lg">
+                <div class="chart-container">
+                    <canvas id="marketGrowthChart"></canvas>
+                </div>
+                 <p class="text-center text-sm mt-4 text-white/70">Omnichannel adoption is projected to become the dominant business model, driving significant market expansion and consolidating market share towards future-ready suppliers.</p>
+            </div>
+        </section>
+
+        <section id="solution">
+             <h2 class="section-title">A High-Performance Solution</h2>
+             <p class="section-subtitle mt-4 text-white/80">An integrated omnichannel platform directly addresses the industry's core challenges, transforming vulnerabilities into strengths and driving measurable gains in efficiency and profitability.</p>
+
+            <div class="mt-12 md:col-span-2 bg-[#2f4b7c] p-6 rounded-2xl shadow-lg">
+                <h3 class="text-2xl font-bold text-center mb-4 text-[#ffa600]">Streamlining the Procurement Process</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+                    <div>
+                        <h4 class="font-bold text-lg text-red-400 text-center mb-4">Before: The Manual Workflow</h4>
+                        <div class="space-y-4">
+                            <div class="bg-red-900/50 p-3 rounded-lg border-l-4 border-red-400"><strong>1. Identify Need:</strong> Realize project requires materials.</div>
+                            <div class="text-center font-bold text-2xl text-white/50">↓</div>
+                            <div class="bg-red-900/50 p-3 rounded-lg border-l-4 border-red-400"><strong>2. Manual Search:</strong> Call multiple suppliers, check availability.</div>
+                             <div class="text-center font-bold text-2xl text-white/50">↓</div>
+                            <div class="bg-red-900/50 p-3 rounded-lg border-l-4 border-red-400"><strong>3. Travel & Verify:</strong> Drive to physical location to confirm quality/quantity.</div>
+                             <div class="text-center font-bold text-2xl text-white/50">↓</div>
+                            <div class="bg-red-900/50 p-3 rounded-lg border-l-4 border-red-400"><strong>4. Purchase & Load:</strong> Manual payment and loading process.</div>
+                        </div>
+                    </div>
+                     <div>
+                        <h4 class="font-bold text-lg text-green-400 text-center mb-4">After: The Omnichannel Workflow</h4>
+                         <div class="space-y-4">
+                            <div class="bg-green-900/50 p-3 rounded-lg border-l-4 border-green-400"><strong>1. Verify Online:</strong> Check real-time stock & pricing 24/7.</div>
+                             <div class="text-center font-bold text-2xl text-white/50">↓</div>
+                            <div class="bg-green-900/50 p-3 rounded-lg border-l-4 border-green-400"><strong>2. Order & Pay:</strong> Place order online, request quote, or pre-order.</div>
+                             <div class="text-center font-bold text-2xl text-white/50">↓</div>
+                            <div class="bg-green-900/50 p-3 rounded-lg border-l-4 border-green-400"><strong>3. Fulfill:</strong> Choose site delivery or expedited in-store pickup.</div>
+                             <div class="text-center font-bold text-2xl text-white/50">↓</div>
+                            <div class="bg-green-900/50 p-3 rounded-lg border-l-4 border-green-400"><strong>4. Deploy:</strong> Materials arrive on-site or are ready for pickup.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-[#2f4b7c] p-6 rounded-2xl shadow-lg">
+                    <h3 class="text-xl font-bold text-center mb-4 text-white">Inventory Waste Reduction</h3>
+                    <div class="chart-container h-64 md:h-80">
+                         <canvas id="inventoryWasteChart"></canvas>
+                    </div>
+                     <p class="text-center text-sm mt-4 text-white/70">By enabling pre-orders and providing real-time stock data, businesses can drastically reduce spoilage and overstocking of perishable goods, directly impacting the bottom line.</p>
+                </div>
+                 <div class="bg-[#2f4b7c] p-6 rounded-2xl shadow-lg">
+                    <h3 class="text-xl font-bold text-center mb-4 text-white">Return on Investment by Feature</h3>
+                    <div class="chart-container h-64 md:h-80">
+                         <canvas id="roiChart"></canvas>
+                    </div>
+                    <p class="text-center text-sm mt-4 text-white/70">Features like bulk quoting and pre-season ordering deliver the highest ROI by enabling better project planning and securing favorable pricing for large-scale needs.</p>
+                </div>
+            </div>
+        </section>
+
+         <section id="landscape">
+             <h2 class="section-title">The New Competitive Landscape</h2>
+             <p class="section-subtitle mt-4 text-white/80">The market is no longer defined by location alone. Reliability, efficiency, and digital convenience are the new metrics for leadership. Omnichannel suppliers consistently outperform traditional models across key performance indicators.</p>
+            <div class="mt-12 bg-[#2f4b7c] p-6 rounded-2xl shadow-lg">
+                <div class="chart-container">
+                     <canvas id="competitiveLandscapeChart"></canvas>
+                </div>
+                 <p class="text-center text-sm mt-4 text-white/70">Omnichannel Leaders excel in providing reliable inventory and high operational efficiency, while Online-Only retailers struggle with the tangible needs of the industry, and Traditional C&C suppliers lag in digital convenience.</p>
+            </div>
+        </section>
+
+         <section id="adoption">
+            <h2 class="section-title">B2B Technology Adoption Rates</h2>
+             <p class="section-subtitle mt-4 text-white/80">The industry is rapidly adopting digital tools that streamline operations. Platforms that offer a comprehensive suite of features are seeing the fastest adoption rates among professional landscapers and property managers.</p>
+            <div class="mt-12 bg-[#2f4b7c] p-6 rounded-2xl shadow-lg">
+                <div class="chart-container">
+                    <canvas id="techAdoptionChart"></canvas>
+                </div>
+                 <p class="text-center text-sm mt-4 text-white/70">Real-time inventory access and online quoting are becoming standard expectations, while mobile ordering is the fastest-growing channel for B2B procurement.</p>
+            </div>
+        </section>
+
+        <section id="conclusion">
+             <h2 class="section-title">The Path Forward: A Strategic Partnership</h2>
+             <p class="section-subtitle mt-4 text-white/80">Embracing an omnichannel strategy is more than a technological upgrade; it's a fundamental shift in business philosophy. It's about moving from a transactional supplier to a high-value, high-performance strategic partner committed to your growth. The data is clear: the future of B2B garden supply is integrated, efficient, and online.</p>
+             <div class="mt-12 flex justify-center">
+                 <a href="#" class="bg-[#ffa600] text-[#003f5c] font-bold py-4 px-8 rounded-lg text-xl hover:bg-white transition-colors">Connect with Our B2B Team</a>
+             </div>
+        </section>
+
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const brilliantBlues = {
+                darkBlue: '#003f5c',
+                midBlue: '#2f4b7c',
+                purple1: '#665191',
+                purple2: '#a05195',
+                pink1: '#d45087',
+                pink2: '#f95d6a',
+                orange: '#ff7c43',
+                yellow: '#ffa600'
+            };
+            const chartTextColor = '#FFFFFF';
+            const gridColor = 'rgba(255, 255, 255, 0.2)';
+           
+            Chart.defaults.color = chartTextColor;
+            Chart.defaults.font.family = "'Inter', sans-serif";
+
+            const wrapLabel = (label, maxWidth) => {
+                const words = label.split(' ');
+                let lines = [];
+                let currentLine = '';
+                for (const word of words) {
+                    if ((currentLine + ' ' + word).length > maxWidth) {
+                        lines.push(currentLine.trim());
+                        currentLine = '';
+                    }
+                    currentLine += word + ' ';
+                }
+                lines.push(currentLine.trim());
+                return lines;
+            };
+           
+            const tooltipTitleCallback = (tooltipItems) => {
+                const item = tooltipItems[0];
+                let label = item.chart.data.labels[item.dataIndex];
+                if (Array.isArray(label)) {
+                    return label.join(' ');
+                }
+                return label;
+            };
+
+            const defaultPlugins = {
+                legend: {
+                    position: 'top',
+                    labels: {
+                        color: chartTextColor,
+                        font: {
+                            size: 14
+                        }
+                    }
+                },
+                tooltip: {
+                    backgroundColor: 'rgba(0,0,0,0.8)',
+                    titleFont: {
+                        size: 16,
+                        weight: 'bold'
+                    },
+                    bodyFont: {
+                        size: 14
+                    },
+                    padding: 10,
+                    cornerRadius: 4,
+                    callbacks: {
+                        title: tooltipTitleCallback
+                    }
+                }
+            };
+
+            new Chart(document.getElementById('marketGrowthChart'), {
+                type: 'line',
+                data: {
+                    labels: ['2022', '2023', '2024', '2025 (Proj.)', '2026 (Proj.)', '2027 (Proj.)', '2028 (Proj.)'],
+                    datasets: [{
+                        label: 'Traditional C&C Market Share',
+                        data: [85, 80, 72, 60, 45, 30, 20],
+                        borderColor: brilliantBlues.pink2,
+                        backgroundColor: 'rgba(249, 93, 106, 0.2)',
+                        fill: true,
+                        tension: 0.4
+                    }, {
+                        label: 'Omnichannel Market Share',
+                        data: [15, 20, 28, 40, 55, 70, 80],
+                        borderColor: brilliantBlues.yellow,
+                        backgroundColor: 'rgba(255, 166, 0, 0.3)',
+                        fill: true,
+                        tension: 0.4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: defaultPlugins,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: 100,
+                            ticks: { color: chartTextColor, callback: (value) => value + '%' },
+                            grid: { color: gridColor }
+                        },
+                        x: {
+                            ticks: { color: chartTextColor },
+                            grid: { color: gridColor }
+                        }
+                    }
+                }
+            });
+
+            new Chart(document.getElementById('inventoryWasteChart'), {
+                type: 'doughnut',
+                data: {
+                    labels: ['Product Sold', 'Inventory Waste (Traditional)', 'Inventory Waste (Omnichannel)'],
+                    datasets: [{
+                        data: [85, 15],
+                        backgroundColor: [brilliantBlues.purple1, brilliantBlues.pink2],
+                        label: 'Traditional Model'
+                    }, {
+                        data: [96, 4],
+                        backgroundColor: [brilliantBlues.yellow, brilliantBlues.pink2],
+                        label: 'Omnichannel Model',
+                        hidden: true
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            ...defaultPlugins.tooltip,
+                            callbacks: {
+                                title: (tooltipItems) => tooltipItems[0].dataset.label,
+                                label: (context) => `${context.label}: ${context.parsed}%`
+                            }
+                        },
+                         title: { display: false }
+                    },
+                    cutout: '70%'
+                }
+            });
+
+            new Chart(document.getElementById('roiChart'), {
+                type: 'bar',
+                data: {
+                    labels: ['24/7 Online Access', 'Real-time Inventory', 'Bulk Quoting System', 'Pre-Season Ordering'],
+                    datasets: [{
+                        label: 'Return on Investment (%)',
+                        data: [150, 220, 350, 410],
+                        backgroundColor: [brilliantBlues.purple1, brilliantBlues.purple2, brilliantBlues.orange, brilliantBlues.yellow],
+                        borderColor: 'transparent',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    indexAxis: 'y',
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { ...defaultPlugins, legend: { display: false } },
+                    scales: {
+                        x: {
+                            beginAtZero: true,
+                            ticks: { color: chartTextColor, callback: (value) => value + '%' },
+                            grid: { color: gridColor }
+                        },
+                        y: {
+                             ticks: { color: chartTextColor },
+                             grid: { display: false }
+                        }
+                    }
+                }
+            });
+           
+            new Chart(document.getElementById('competitiveLandscapeChart'), {
+                type: 'radar',
+                data: {
+                    labels: ['Inventory Reliability', 'Pricing', 'Operational Efficiency', 'Customer Support', 'Digital Convenience'],
+                    datasets: [{
+                        label: 'Omnichannel Leader',
+                        data: [9, 7, 9, 8, 10],
+                        borderColor: brilliantBlues.yellow,
+                        backgroundColor: 'rgba(255, 166, 0, 0.4)'
+                    }, {
+                        label: 'Traditional C&C',
+                        data: [7, 8, 5, 7, 2],
+                        borderColor: brilliantBlues.pink1,
+                        backgroundColor: 'rgba(212, 80, 135, 0.4)'
+                    }, {
+                        label: 'Online-Only Retailer',
+                        data: [5, 6, 7, 5, 9],
+                        borderColor: brilliantBlues.purple1,
+                        backgroundColor: 'rgba(102, 81, 145, 0.4)'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: defaultPlugins,
+                    scales: {
+                        r: {
+                            angleLines: { color: gridColor },
+                            grid: { color: gridColor },
+                            pointLabels: {
+                                font: { size: 12 },
+                                color: chartTextColor
+                            },
+                            ticks: {
+                                backdropColor: 'transparent',
+                                color: chartTextColor,
+                                stepSize: 2
+                            },
+                             suggestedMin: 0,
+                             suggestedMax: 10
+                        }
+                    }
+                }
+            });
+           
+            new Chart(document.getElementById('techAdoptionChart'), {
+                type: 'bar',
+                data: {
+                    labels: [
+                        wrapLabel('Online Ordering Portal for B2B Accounts', 20),
+                        wrapLabel('Real-Time Inventory Visibility', 20),
+                        wrapLabel('Mobile App for On-Site Ordering', 20),
+                        wrapLabel('Automated Bulk & Project Quoting', 20),
+                        wrapLabel('Integrated Delivery & Logistics Tracking', 20)
+                    ],
+                    datasets: [{
+                        label: 'Adoption Rate (%)',
+                        data: [78, 85, 62, 55, 40],
+                        backgroundColor: brilliantBlues.yellow,
+                    }]
+                },
+                options: {
+                    indexAxis: 'y',
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        ...defaultPlugins,
+                        legend: { display: false },
+                    },
+                    scales: {
+                        x: {
+                            beginAtZero: true,
+                            max: 100,
+                            ticks: { color: chartTextColor, callback: (value) => value + '%' },
+                            grid: { color: gridColor }
+                        },
+                        y: {
+                            ticks: { color: chartTextColor, font: { size: 12 } },
+                            grid: { display: false }
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
